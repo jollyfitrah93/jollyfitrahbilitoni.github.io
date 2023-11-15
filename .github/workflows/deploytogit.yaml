@@ -1,0 +1,5 @@
+- name: Deploy to GitHub Pages
+  run: |
+    git config --global user.name "${{ github.actor }}"
+    git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+    npm run deploy  # Replace with your deploy script or commands

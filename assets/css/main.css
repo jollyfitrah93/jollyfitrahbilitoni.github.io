@@ -4694,8 +4694,8 @@ input, select, textarea {
 		width: 150px;
 		height: 150px;
 		object-fit: cover;
-		position: absolute;
-		top: 60px; /* Adjust the top position to move the image up */
+		position: relative;
+		top: 100px; /* Adjust the top position to move the image up */
 		left: 50%; /* Center the image horizontally */
 		transform: translateX(-50%); /* Adjust for centering */
 	}

@@ -4699,3 +4699,41 @@ input, select, textarea {
 		left: 50%; /* Center the image horizontally */
 		transform: translateX(-50%); /* Adjust for centering */
 	}
+
+	.whatsapp-container {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 1000; /* Pastikan z-index lebih tinggi dari elemen lain di halaman */
+	}
+	
+	.whatsapp-button img {
+		width: 40px; /* Ukuran asli ikon */
+		height: auto;
+		border-radius: 50%; /* Jika ingin membuat ikon bundar */
+		transition: transform 0.3s ease; /* Efek transisi pada transformasi ukuran */
+	}
+
+	.whatsapp-button:hover img {
+		transform: scale(1.5); /* Membuat ikon 20% lebih besar saat dihover */
+	}
+
+	.cv-container {
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+	.cv-button {
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #008080; /* Teal color */
+		color: #fff;
+		text-decoration: none;
+		border-radius: 5px;
+		font-size: 16px;
+		transition: background-color 0.3s ease;
+	}
+	
+	.cv-button:hover {
+		background-color: #006666; /* Darker teal on hover */
+	}
